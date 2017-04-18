@@ -1,3 +1,7 @@
+# Run in this directory with command: docker-compose up
+# Stop with command: docker-compose stop
+# Rebuild (to refresh cached image) with: docker-compose build --no-cache
+
 web1:
   build: .
   ports:
