@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func Instantiation() {
+func main() {
 	servers := consistent.New()
 	servers.Add("king-cakes")
 	servers.Add("strawberry-habanero")
