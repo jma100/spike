@@ -1,10 +1,12 @@
 package consistent
 
 import (
-	"../consistent"
+	"../spike/consistent"
 	"fmt"
 	"log"
 )
+
+fmt.Println("hello")
 
 func main() {
 	servers := consistent.New()
