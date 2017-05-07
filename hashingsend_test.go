@@ -17,8 +17,8 @@ func main() {
 		fmt.Printf("%s => %s\n", p, server)
 	
 }
-	AddServ()
-	RemoveServ()
+	//AddServ()
+	//RemoveServ()
 
 }
 
