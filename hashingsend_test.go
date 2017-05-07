@@ -15,7 +15,8 @@ func main() {
 			log.Fatal(err)
 		}
 		fmt.Printf("%s => %s\n", p, server)
-	}
+	
+}
 	AddServ()
 	RemoveServ()
 
